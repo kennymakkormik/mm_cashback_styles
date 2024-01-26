@@ -48,6 +48,13 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     border-color: #8654cc;
 }
 
+#bc-id-start-button {
+    position: fixed;
+    right: 10%;
+    left: 10%;
+    z-index: 9997;
+}
+
 #bc-id-smt, #bc-id-start-button {
     display: block;
     margin: 0 auto;
