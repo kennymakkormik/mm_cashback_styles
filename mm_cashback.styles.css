@@ -57,7 +57,7 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     text-decoration: none;
     cursor: pointer;
     border: 2px solid #8654cc;
-    border-radius: 5px;
+    border-radius: 24px;
     color: #ffffff;
     background-color: #8654cc;
 }
@@ -65,6 +65,7 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
 #bc-id-smt:hover, #bc-id-start-button:hover {
     background-color: #634196;
     border-color: #634196;
+}
 
 #bc-id-smt:focus, #bc-id-start-button:focus {
     outline: none;
