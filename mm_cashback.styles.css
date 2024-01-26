@@ -50,8 +50,8 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
 
 #bc-id-start-button {
     position: fixed;
-    bottom: 10%;
-    left: 10%;
+    bottom: 13%;
+    right: 10%;
     z-index: 9997;
 }
 
