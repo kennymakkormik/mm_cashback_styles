@@ -26,29 +26,29 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     margin-bottom: 5px;
     font-size: 12px;
     color: #333;
-  }
+}
 
-  #bc-id-w-f, #bc-id-min-per, #bc-id-sort, #bc-id-max-page {
+#bc-id-w-f, #bc-id-min-per, #bc-id-sort, #bc-id-max-page {
     display: block;
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 16px;
-    border: 2px solid #3498db;
+    border: 2px solid #8654cc; /* Изменено на новый цвет */
     border-radius: 5px;
     transition: border-color 0.3s;
-  }
+}
 
-  #bc-id-w-f:focus, #bc-id-min-per:focus, #bc-id-sort:focus, #bc-id-max-page:focus {
+#bc-id-w-f:focus, #bc-id-min-per:focus, #bc-id-sort:focus, #bc-id-max-page:focus {
     outline: none;
-    border-color: #2ecc71;
-  }
+    border-color: #8654cc;
+}
 
-  #bc-id-w-f:hover, #bc-id-min-per:hover, #bc-id-sort:hover, #bc-id-max-page:hover {
-    border-color: #2ecc71;
-  }
+#bc-id-w-f:hover, #bc-id-min-per:hover, #bc-id-sort:hover, #bc-id-max-page:hover {
+    border-color: #8654cc;
+}
 
-  #bc-id-smt, #bc-id-start-button {
+#bc-id-smt, #bc-id-start-button {
     display: block;
     margin: 0 auto;
     padding: 5px 20px;
@@ -56,19 +56,18 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 2px solid #3498db;
+    border: 2px solid #8654cc;
     border-radius: 5px;
     color: #ffffff;
-    background-color: #3498db;
-  }
+    background-color: #8654cc;
+}
 
 #bc-id-smt:hover, #bc-id-start-button:hover {
-    background-color: #2ecc71;
-    border-color: #2ecc71;
-}
+    background-color: #634196;
+    border-color: #634196;
 
 #bc-id-smt:focus, #bc-id-start-button:focus {
     outline: none;
-    background-color: #2ecc71;
-    border-color: #2ecc71;
+    background-color: #634196;
+    border-color: #634196;
 }
