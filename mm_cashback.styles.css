@@ -48,7 +48,7 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     border-color: #2ecc71;
   }
 
-  #bc-id-smt {
+  #bc-id-smt, #bc-id-start-button {
     display: block;
     margin: 0 auto;
     padding: 5px 20px;
@@ -61,3 +61,14 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     color: #ffffff;
     background-color: #3498db;
   }
+
+#bc-id-smt:hover, #bc-id-start-button:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+#bc-id-smt:focus, #bc-id-start-button:focus {
+    outline: none;
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
