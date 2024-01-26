@@ -34,7 +34,7 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     padding: 10px;
     margin-bottom: 10px;
     font-size: 16px;
-    border: 2px solid #8654cc; /* Изменено на новый цвет */
+    border: 2px solid #8654cc;
     border-radius: 5px;
     transition: border-color 0.3s;
 }
