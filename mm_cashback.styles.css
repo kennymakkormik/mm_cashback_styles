@@ -53,6 +53,19 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     bottom: 10%;
     left: 10%;
     z-index: 9997;
+    border-radius: 50%;
+}
+
+#bc-id-start-button::before {
+    content: "🔍💵";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bc-id-smt {
+    border-radius: 24px;
 }
 
 #bc-id-smt, #bc-id-start-button {
@@ -64,7 +77,6 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     text-decoration: none;
     cursor: pointer;
     border: 2px solid #8654cc;
-    border-radius: 24px;
     color: #ffffff;
     background-color: #8654cc;
 }
