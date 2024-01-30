@@ -55,13 +55,14 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     z-index: 9997;
 }
 
+.bc-stop-searching::before {
+    content: "СТОП" !important;
+}
+
 #bc-id-start-button::before {
     content: "🔍💵";
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
 }
+
 
 #bc-id-smt, #bc-id-start-button {
     display: block;
