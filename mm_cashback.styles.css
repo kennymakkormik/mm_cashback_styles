@@ -39,7 +39,9 @@ span.bc-delete-promokode {
 }
 
 span.bc-delete-promokode::before {
-    content: '\u274C';
+    content: 'X';
+    font-weight: 900;
+    color: red;
 }
 
 label.best-cashback-mm {
