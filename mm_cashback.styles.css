@@ -1,3 +1,14 @@
+a.bc-error-link {
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-size: 16px;
+}
+
+a.bc-error-link:hover {
+    color: #5d3a8e91;
+}
+
 #bc-id-overlay {
     position: fixed;
     top: 0;
@@ -8,7 +19,7 @@
     z-index: 9998;
 }
 
-#bc-id-form {
+#bc-id-form, #bc-id-promokodes-modal {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -21,14 +32,83 @@
     border-radius: 3px;
 }
 
-label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], label[for="bc-id-max-page"] {
+span.bc-delete-promokode {
+    cursor: pointer !important;
+    margin-left: 5px !important;
+    font-size: 10px !important;
+}
+
+span.bc-delete-promokode::before {
+    content: '\u274C';
+}
+
+label.best-cashback-mm {
     display: block;
     margin-bottom: 5px;
     font-size: 12px;
     color: #333;
 }
 
-#bc-id-w-f, #bc-id-min-per, #bc-id-sort, #bc-id-max-page {
+.div-bc-promokode-item {
+    margin-bottom: 0.5rem;
+}
+
+.div-bc-promokode-item label {
+    margin-left: 0.4rem;
+}
+
+.div-mm-best-cashback-promokodes-select {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.mm-best-cashback-promokodes-select {
+    padding: 0 !important;
+}
+
+span#bc-id-setting-up-promokodes {
+    color: blue;
+}
+
+span#bc-id-setting-up-promokodes:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#bc-id-promokodes-form {
+    position: relative;
+}
+
+#bc-id-reset-promokodes-span {
+    position: absolute;
+    font-size: 11px;
+    right: -14px;
+    top: -19px;
+    cursor: pointer;
+}
+
+#bc-id-reset-promokodes-span:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+button.best-cashback-mm {
+    margin-bottom: 0.5rem !important;
+}
+
+.bc-add-new-promokode-input {
+    font-size: 12px !important;
+    margin-bottom: 5px !important;
+    padding: 5px !important;
+}
+
+#bc-id-promokodes-list {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 0.5rem;
+}
+
+#bc-id-w-f, #bc-id-min-per, #bc-id-sort, #bc-id-max-page, .mm-best-cashback-promokodes-select, input.best-cashback-mm{
     display: block;
     width: 100%;
     padding: 10px;
@@ -39,12 +119,12 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     transition: border-color 0.3s;
 }
 
-#bc-id-w-f:focus, #bc-id-min-per:focus, #bc-id-sort:focus, #bc-id-max-page:focus {
+select.best-cashback-mm:focus, input.best-cashback-mm:focus, #bc-id-w-f:focus, #bc-id-min-per:focus, #bc-id-sort:focus, #bc-id-max-page:focus, .mm-best-cashback-promokodes-select:focus {
     outline: none;
     border-color: #8654cc;
 }
 
-#bc-id-w-f:hover, #bc-id-min-per:hover, #bc-id-sort:hover, #bc-id-max-page:hover {
+select.best-cashback-mm:hover, input.best-cashback-mm:hover, #bc-id-w-f:hover, #bc-id-min-per:hover, #bc-id-sort:hover, #bc-id-max-page:hover, .mm-best-cashback-promokodes-select:hover {
     border-color: #8654cc;
 }
 
@@ -53,6 +133,11 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     bottom: 13%;
     right: 10%;
     z-index: 9997;
+}
+
+#bc-id-items-length {
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .bc-stop-searching::before {
@@ -64,7 +149,7 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
 }
 
 
-#bc-id-smt, #bc-id-start-button {
+button.best-cashback-mm, #bc-id-smt, #bc-id-start-button {
     display: block;
     margin: 0 auto;
     padding: 5px 20px;
@@ -78,13 +163,17 @@ label[for="bc-id-w-f"], label[for="bc-id-min-per"], label[for="bc-id-sort"], lab
     border-radius: 24px;
 }
 
-#bc-id-smt:hover, #bc-id-start-button:hover {
+button.best-cashback-mm, #bc-id-smt:hover, #bc-id-start-button:hover {
     background-color: #634196;
     border-color: #634196;
 }
 
-#bc-id-smt:focus, #bc-id-start-button:focus {
+button.best-cashback-mm, #bc-id-smt:focus, #bc-id-start-button:focus {
     outline: none;
     background-color: #634196;
     border-color: #634196;
+}
+
+button#bc-id-save-promokodes, button#bc-id-close-promokodes {
+    display: inline !important;
 }
