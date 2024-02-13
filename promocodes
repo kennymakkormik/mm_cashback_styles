@@ -1,4 +1,2 @@
-[
-["test", 10000, 2000, true],
-["TESTSECOND", 15363, 1592, false],
-]
+"test", 10000, 2000, true
+"TESTSECOND", 15363, 1592, false
