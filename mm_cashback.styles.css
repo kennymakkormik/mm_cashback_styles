@@ -1,3 +1,9 @@
+:root {
+    --bc-main-color: #8654cc;
+    --bc-input-border: 2px solid var(--bc-main-color);
+    --bc-input-padding: 10px;
+}
+
 a.bc-error-link {
     font-weight: 900;
     text-decoration: underline;
@@ -27,7 +33,7 @@ a.bc-error-link:hover {
     padding: 20px;
     background: #fff;
     border: 1px solid #ccc;
-    box-shadow: #fff 0px 0px 10px;
+    box-shadow: var(--bc-main-color) 0px 0px 10px;
     z-index: 9999;
     border-radius: 3px;
 }
@@ -108,26 +114,29 @@ button.best-cashback-mm {
     max-height: 300px;
     overflow-y: auto;
     margin-bottom: 0.5rem;
+    border: var(--bc-input-border);
+    padding: var(--bc-input-padding);
+    border-radius: 5px 0 0 5px;
 }
 
 #bc-id-w-f, #bc-id-min-per, #bc-id-sort, #bc-id-max-page, .mm-best-cashback-promokodes-select, input.best-cashback-mm{
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: var(--bc-input-padding);
     margin-bottom: 10px;
     font-size: 16px;
-    border: 2px solid #8654cc;
+    border: var(--bc-input-border);
     border-radius: 5px;
     transition: border-color 0.3s;
 }
 
 select.best-cashback-mm:focus, input.best-cashback-mm:focus, #bc-id-w-f:focus, #bc-id-min-per:focus, #bc-id-sort:focus, #bc-id-max-page:focus, .mm-best-cashback-promokodes-select:focus {
     outline: none;
-    border-color: #8654cc;
+    border-color: var(--bc-main-color);
 }
 
 select.best-cashback-mm:hover, input.best-cashback-mm:hover, #bc-id-w-f:hover, #bc-id-min-per:hover, #bc-id-sort:hover, #bc-id-max-page:hover, .mm-best-cashback-promokodes-select:hover {
-    border-color: #8654cc;
+    border-color: var(--bc-main-color);
 }
 
 #bc-id-start-button {
@@ -150,7 +159,6 @@ select.best-cashback-mm:hover, input.best-cashback-mm:hover, #bc-id-w-f:hover, #
     content: "🔍💵";
 }
 
-
 button.best-cashback-mm, #bc-id-smt, #bc-id-start-button {
     display: block;
     margin: 0 auto;
@@ -159,23 +167,29 @@ button.best-cashback-mm, #bc-id-smt, #bc-id-start-button {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 2px solid #8654cc;
+    border: var(--bc-input-border);
     color: #ffffff;
-    background-color: #8654cc;
+    background-color: var(--bc-main-color);
     border-radius: 24px;
 }
 
 button.best-cashback-mm, #bc-id-smt:hover, #bc-id-start-button:hover {
-    background-color: #634196;
-    border-color: #634196;
+    background-color: var(--bc-main-color);
+    border-color: var(--bc-main-color);
 }
 
 button.best-cashback-mm, #bc-id-smt:focus, #bc-id-start-button:focus {
     outline: none;
-    background-color: #634196;
-    border-color: #634196;
+    background-color: var(--bc-main-color);
+    border-color: var(--bc-main-color);
 }
 
 button#bc-id-save-promokodes, button#bc-id-close-promokodes {
     display: inline !important;
+}
+
+span.bc-total-price-data {
+    color: var(--bc-main-color);
+    font-size: 12pt;
+    font-weight: 700;
 }
