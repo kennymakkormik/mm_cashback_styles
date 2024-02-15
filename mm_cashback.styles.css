@@ -1,5 +1,6 @@
 :root {
     --bc-main-color: #8654cc;
+    --bc-total-price-color: #8654cc;
     --bc-input-border: 2px solid var(--bc-main-color);
     --bc-input-padding: 10px;
 }
