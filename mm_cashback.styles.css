@@ -190,7 +190,7 @@ button#bc-id-save-promokodes, button#bc-id-close-promokodes {
 }
 
 span.bc-total-price-data {
-    color: var(--bc-main-color);
+    color: var(--bc-total-price-color);
     font-size: 12pt;
     font-weight: 700;
 }
