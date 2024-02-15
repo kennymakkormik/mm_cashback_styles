@@ -3,6 +3,7 @@
     --bc-total-price-color: #8654cc;
     --bc-input-border: 2px solid var(--bc-main-color);
     --bc-input-padding: 10px;
+    --bc-promokodes-font-size: 14px;
 }
 
 a.bc-error-link {
@@ -73,6 +74,7 @@ label.best-cashback-mm {
 
 .mm-best-cashback-promokodes-select {
     padding: 0 !important;
+    font-size: var(--bc-promokodes-font-size) !important;
 }
 
 span#bc-id-setting-up-promokodes {
